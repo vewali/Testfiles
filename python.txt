@@ -1,0 +1,506 @@
+# # # # # # # # n = eval(input("Enter the number"))
+# # # # # # # # if n%2 == 0:
+# # # # # # # #     print('Number is even', n)
+# # # # # # # # else :
+# # # # # # # #     print('Number is odd', n)
+# # # # # # #
+# # # # # # # #
+# # # # # # # # a= 28
+# # # # # # # #
+# # # # # # # # if a%3 == 0 :
+# # # # # # # #     print(f"{a} Divisible by 3")
+# # # # # # # # else:
+# # # # # # # #     print(f"{a} Divisible by 4")
+# # # # # # # #
+# # # # # # # #
+# # # # # # # # #String Palendrom
+# # # # # # # #
+# # # # # # # # s= 'madam'
+# # # # # # # #
+# # # # # # # # if s==s[::-1]:
+# # # # # # # #     print(f"{s} is palendrom")
+# # # # # # # # else:
+# # # # # # # #     print(f"{s} is not palandrom")
+# # # # # # #
+# # # # # # #
+# # # # # # #
+# # # # # # #
+# # # # # # # #input vote
+# # # # # # #
+# # # # # # # # a= eval(input("Enter the age: "))
+# # # # # # # # if a >=18:
+# # # # # # # #     print("you can vote")
+# # # # # # # # else:
+# # # # # # # #     print("not eligible")
+# # # # # # #
+# # # # # # #
+# # # # # # #
+# # # # # # # #result
+# # # # # # # # result= eval(input("Enter the marks"))
+# # # # # # # # if result >=35:
+# # # # # # # #     print("Pass")
+# # # # # # # # else:
+# # # # # # # #     print("Fail")
+# # # # # # #
+# # # # # # # #
+# # # # # # # # laptop = ['HP','Mac','thinkpad','dell']
+# # # # # # # # S= eval(input("please provide your laptop: 'S' "))
+# # # # # # # # if S in laptop :
+# # # # # # # #     print(f'Yes')
+# # # # # # # # else:
+# # # # # # # #     print('no')
+# # # # # # #
+# # # # # # #
+# # # # # # # #WAP to order food--------------------------------------------------------
+# # # # # # #
+# # # # # # # # Food = ['idali','vada','puri','sambar']
+# # # # # # # # a= input('Enter the food :')
+# # # # # # # # if a in Food:
+# # # # # # # #     print('plase pay the bill')
+# # # # # # # # else:
+# # # # # # # #     print('we dont have item')
+# # # # # # #
+# # # # # # # #----------------------------------WAP to check given number is even if not add +1 make even
+# # # # # # # #
+# # # # # # # # a = eval(input('provide the number : '))
+# # # # # # # # if a%2 ==0:
+# # # # # # # #     print(f'your number is: {a}')
+# # # # # # # # else:
+# # # # # # # #     a=a+1
+# # # # # # # #     print(f"your number is even : {a}")
+# # # # # # #
+# # # # # # #
+# # # # # # # #--------------WAP to check 1st charcter is in the sring is starting with uppercase
+# # # # # # # # a= 'python'
+# # # # # # # # if a.istitle():
+# # # # # # # #     print(f'1st char in given string is starting with upper case {a[0]}')
+# # # # # # # # else:
+# # # # # # # #     print(f'{a[0]} is not upper case')
+# # # # # # #
+# # # # # # # # ----------WAP to validate email
+# # # # # # # #
+# # # # # # # # a = eval(input('provide your mail id'))
+# # # # # # # # if (a[-3],and a[-2],and a[-1] =='com'):
+# # # # # # # #     print('valid mail')
+# # # # # # # # else:
+# # # # # # # #     print('invalid mail')
+# # # # # # #
+# # # # # # #
+# # # # # # #
+# # # # # # # #------WAP to check whether the
+# # # # # # # s = 'python'
+# # # # # # # a=eval(input("enter the string: "))
+# # # # # # # if a in s:
+# # # # # # #     print(f'present in {s}')
+# # # # # # # else:
+# # # # # # #     print(f'not present in {s}')
+# # # # # # #
+# # # # # # # s.isalnum()
+# # # # # # #
+# # # # # # # #-- WAP to check outside temp is 25 degree or what using user input
+# # # # # # # # --WAP water bottle can hold 1lt of water
+# # # # # # # #WAP to check person has scored above >=70
+# # # # # # #
+# # # # # # #
+# # # # # # #
+# # # # # # #
+# # # # # # #
+# # # # # # #
+# # # # # # #
+# # # # # #
+# # # # # #
+# # # # # # # s = eval(input('enter name : '))
+# # # # # # # if s[::1] == s[::-1]:
+# # # # # # #      print("palandom")
+# # # # # # # else:
+# # # # # # #      print ('not')
+# # # # # #
+# # # # # #
+# # # # # #
+# # # # # # # a= 9
+# # # # # # # if a %2 ==0:
+# # # # # # #     print(f"{a} is Even")
+# # # # # # # else:
+# # # # # # #     print(f"{a} is odd")
+# # # # # #
+# # # # # #
+# # # # # # #wap RCB will win cup
+# # # # # # #WAP to check 2nd gratest number
+# # # # # # # a= 30
+# # # # # # # b=70
+# # # # # # # c=80
+# # # # # # #
+# # # # # # # if a >b and b>c:        #30>70  and 70>40
+# # # # # # #     print("a is smaller number")
+# # # # # # # elif c>c and c<a:                    #70>80 and 70<80
+# # # # # # #     print("2nd number")
+# # # # # # # else:
+# # # # # # #     print ("3rd number")
+# # # # # #
+# # # # # #
+# # # # # #
+# # # # # # # a = eval(input('provide the age : '))
+# # # # # # # if a >=21:
+# # # # # # #     print("Eligible for marraige")
+# # # # # # # elif a <= 21:
+# # # # # # #     print("not eligible")
+# # # # # # # else:
+# # # # # # #     print("no eligible ")
+# # # # # #
+# # # # # #
+# # # # # # # a = {1,2,3,4,5}
+# # # # # # # b = {1,2,3,4,5,6,7}
+# # # # # # # a.symmetric_difference_update(b)
+# # # # # # # print(a)
+# # # # # #
+# # # # # #
+# # # # # #
+# # # # # # #WAP to find the middle carter of the string
+# # # # # # a = eval(input('enter 5 char string:'))
+# # # # # # if a[2] in 'aeiouAEIOU':
+# # # # # #     print('men are great')
+# # # # # # elif a[2] not in ('aeiouAEIOU') and a[2] not in ('123456789'):
+# # # # # #      print('women are great')
+# # # # # # else:
+# # # # # #     print('God is grat')
+# # # # # #
+# # # # #
+# # # # # #WAP RCB win
+# # # # # b = eval(input("give the year"))
+# # # # # c = eval(input("Give the oppsite team"))
+# # # # #
+# # # # # if b == 2023 and c in('LSG'):
+# # # # #     print('RCB Will win')
+# # # # # elif b ==2023 and c in('CSK'):
+# # # # #     print('RCB will win ')
+# # # # # else:
+# # # # #     print('Mundinsala cup namade')
+# # # # #    a= 1
+# # # # # ord(a)
+# # # # # print(a)
+# # # #
+# # # #
+# # # # #WAP to create password for facebook
+# # # # #
+# # # # # a=eval(input("provide ur your name "))
+# # # # # b= eval(input('provide password'))
+# # # # #
+# # # # # if a.isalnum() and a.istitle():
+# # # # #     if b.istitle():
+# # # # #         print("valid password")
+# # # # #     else:
+# # # # #         print('invalid password')
+# # # # # else:
+# # # # #     print('invalid user name')
+# # # # #
+# # # #
+# # # # #WAP to 3rd greatest number  amoung 4 number
+# # # # a=84
+# # # # b=63
+# # # # c=58
+# # # # d=78
+# # # # if a<b and b<c and c<d and d<a :
+# # # #        print(f"{c}, yes")
+# # # # else:
+# # # #        print("no")
+# # # #
+# # # #
+# # # #
+# # # #
+# # # #
+# # #
+# # #
+# # # num =12
+# # # if num%7 ==0:
+# # #     if num%2==1:
+# # #         print("odd")
+# # #     else:
+# # #         print("even")
+# # # else:
+# # #     print("not divisible by 7")
+# # #
+# # #
+# # #     #WAP to find middle elemnt is even or odd
+# # #     l=[3,4,5,6,8,9,10]
+# #
+# #
+# #
+# # # a=84
+# # # b=63
+# # # c=58
+# # # d=76
+# # #
+# # # if a<b and a<c and a<d:
+# # #     print(f"{a} is 2nd largest")
+# #
+# #
+# #
+# #    #WAP to find middle of list is even
+# # # l =[3,4,5,6,8,9,10]
+# # #
+# # # if l[len(l)//2] %2==0:
+# # #     print("even")
+# # # else:
+# # #         print("odd")
+# #
+# # # i=0
+# # # while i<=10:
+# # #     print(i)
+# # #     i+=1
+# # #
+# # #WAP to write 2+ junk 100 times
+# # #
+# # # v = 0
+# # # while  v<100 :
+# # #     print("2+anjjfnsk")
+# # #     v+=1
+# #
+# #
+# #
+# # #WAP to print odd number 20 to 1
+# # # i=20
+# # # while i >= 1:
+# # #       if i%2==1:
+# # #           print(i)
+# # #       i=i-1
+# # #
+# #
+# # #
+# # # #wap to print even no
+# # # i=0
+# # # while i<100:
+# # #     if i%2==0:
+# # #         print(i)
+# # #     i= i+1
+# # #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# # #  WAP to find oval
+# # # s='hello'
+# # # v = 0
+# # # while v< len(s):
+# # #     if s[v] in "aeiou":
+# # #         print(f'{s[v]}, is oval')
+# # #     v=v+1
+# # #
+# # #
+# # #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# # # #WAP to find even len of string
+# # # l =['hai','hello','word','bye','loop']
+# # # i=0
+# # # while i <=len(l)-1  :
+# # #     if  len(l[i])%2==0:
+# # #         print(l[i])
+# # #     i= i+1
+# # #
+# #
+# # #WAP to make reverse the string
+# # # b= 'bad news'
+# # # i=len(b)-1
+# # # while i>=0:
+# # #      if b[::-1]==b[::1]:
+# # #           print(b[i])
+# # #      i=i-1
+# # #
+# #
+# # #WAP to print oavls in hello
+# #
+# # # s ='hello'
+# # # i=0
+# # # while i<=len(s)-1:
+# # #     if s[i] in 'aeiou':
+# # #         print(s[i])
+# # #     i=i+1
+# #
+# # #WAP to print elements are even and odd
+# # # l=[22,34,56,35,98,67,53]
+# # #
+# # # i =0
+# # # while i <len(l):
+# # #     if l[i]%2==0:
+# # #         print(f"{l[i]} is even")
+# # #     else:
+# # #         print(f"{l[i]} is odd")
+# # #     i = i+1
+# #
+# #
+# # #10: WAP to check palendrom
+# # # a= 1552551
+# # # b=str(a)
+# # # print(b)
+# # # if b == b[::-1]:
+# # #       print("palendrom")
+# # # else:
+# # #        print("not palendrom")
+# #
+# # #WAP to write table of given number
+# # # a=eval(input("hi enter the number: "))
+# # # i =1
+# # # while i<=10:
+# # #       print ('a*i')
+# # #       i = i+1
+# # #WAP to sum of number from taking start and end of number
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #
+# #    #
+# # # a= eval(input('Enter the 2 numbers :)
+# #
+# #
+# # import os
+# # #print(os.getcwd())
+# # print(os.chdir(r'C:\Users\veere\Desktop\Automation\New_files'))
+# # # print(os.getcwd())
+# # # import  pickle
+# # # l = ["hi","hello","bye","hru"]
+# # # with open("start.pkl","wb") as obj:
+# # #     var=pickle.dump(l,obj)
+# # #     print(var)
+# # #
+# # # with open('model.pkl',"rb") as obj:
+# # #     var=pickle.load(obj)
+# # #     print(var)
+# # #
+# # #
+# # import pickle
+# # # s = "hiheeloYalsamnau,veer"
+# # # #l = ["hi","hellp","yals","veeresh"]
+# # # #ver=pickle.dumps(list(s))
+# # # r= ("model.pkl")
+# # # # print(ver)
+# # # ver2=pickle.loads(r)
+# # # print(os.popen(ver2))
+# # # #print(list(ver))
+# # # print(list(ver2))
+# #
+# # #import sklearn
+# #
+# # # with open('model.pkl',"rb") as obj:
+# # #     var=pickle.load(obj)
+# # #     print(var)
+# #
+# # # import pickle
+# # # import sklearn
+# # #
+# #
+# # # #
+# # # with open(obj_path, "r+") as obj:
+# # #  v = obj.read()
+# # #    var = pickle.load(v)
+# # #  print(var)
+# # # # print(os.getcwd())
+# # #
+# # # import json
+# #
+# # #s={"sname":"Rekha","sid":143,"class":10,"sub":"eng","pass":True}
+# # # # #var = json.dumps(s, indent=1)
+# # # # # #print(var)
+# # # os.chdir(r"C:\Users\veere\Desktop\Automation\New_files")
+# # # print(os.getcwd())
+# # # #veers="Ourfile.json"
+# # #with open(veers,"r") as obj:
+# #     v =obj.read()
+# #     obj1=json.loads(v)
+# #     print(obj1)
+# #
+# #
+# #
+# #
+# # # import json
+# # #
+# # # json_file_path = "Ourfile.json"
+# # #
+# # # with open(json_file_path, "r") as file:
+# # #     json_data = file.read()
+# # #     obj1 = json.loads(json_data)
+# # #     print(obj1)
+# #
+# #
+# # a = 10
+# #
+# import os
+# import pickle
+# from sklearn.linear_model import LogisticRegression
+#
+# os.chdir(r"C:\Users\veere\Desktop\Automation\New_files")
+# print(os.getcwd())
+#
+# a = "model.pkl"
+# with open(a, "rb") as b:
+#     m = pickle.load(b)
+#
+#
+#
+# import os
+# import pickle
+# from sklearn.linear_model import LogisticRegression
+#
+# os.chdir(r"C:\Users\veere\Desktop\Automation\New_files")
+# print(os.getcwd())
+#
+# a = "model.pkl"
+# with open(a, "rb") as b:
+#     m = pickle.load(b)
+#
+# # Assuming the pickled object is a logistic regression model
+# logistic_model = LogisticRegression()
+# logistic_model.set_params(**m.get_params())
+#
+# # You can now use the loaded model for predictions or other operations
+
+
+import os
+import pickle
+from sklearn.linear_model import LogisticRegression
+import pkl
+
+os.chdir(r"C:\Users\veere\Desktop\Automation\New_files")
+print(os.getcwd())
+
+a = "model.pkl"
+with open(a, "rb") as b:
+    m = pickle.load(b)
+
+# Assuming the pickled object is a logistic regression model
+logistic_model = LogisticRegression()
+logistic_model.set_params(**m.get_params())
+
+# You can now use the loaded model for predictions or other operations
